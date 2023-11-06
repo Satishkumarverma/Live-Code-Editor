@@ -1,0 +1,87 @@
+* {
+    cursor: context-menu;
+}
+
+.heading {
+    background: linear-gradient(45deg, #0dc450, #04aa42);
+
+    font-family: Sans-serif;
+}
+
+.heading h4 {
+    padding: 10px;
+}
+
+.code_area {
+    background: linear-gradient(45deg, rgb(86, 176, 212), rgb(0, 0, 163));
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.code_content img {
+    width: 21px;
+    height: 21px;
+    margin-bottom: 3px;
+}
+
+.code_content li {
+    margin-left: 12px;
+}
+
+.code_content a {
+    padding: 0 10px;
+}
+
+a.nav-link.text-light.active {
+    background: black;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
+
+.code_content textarea {
+    width: 98%;
+    height: 77.8vh;
+    padding-left: 3px;
+    border: none;
+    font-size: medium;
+    font-family: Consolas;
+    background-color: black;
+    color: white;
+    outline: none;
+    cursor: text;
+    margin-top: -4.5px;
+    border-radius: 8px;
+}
+
+.output_bar h6 {
+    line-height: 40px;
+    margin-bottom: -8px;
+}
+
+.output_bar button {
+    width: 21px;
+    height: 21px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 490px;
+}
+
+.output_bar i {
+    cursor: pointer;
+}
+
+.output iframe {
+    width: 98%;
+    height: 77.3vh;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 1px solid black;
+
+}
+
+.box {
+    font-size: x-small;
+}
